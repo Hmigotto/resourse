@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+		{
+          "type": "loot_table",
+          "weight": 1,
+		  "name": "minecraft:chests/buried_treasure" 
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/bastion_treasure" 
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/desert_pyramid" 
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/end_city_treasure" 
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:salmon"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 14,
+          "name": "minecraft:pufferfish"
+        }
+      ]
+    }
+  ]
+}

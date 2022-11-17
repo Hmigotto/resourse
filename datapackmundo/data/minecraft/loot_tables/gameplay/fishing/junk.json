@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+	  	{
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:warden_spawn_egg"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+		  "name": "minecraft:chests/buried_treasure" 
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/bastion_treasure" 
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/desert_pyramid" 
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "minecraft:chests/end_city_treasure" 
+        },
+		{
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:leather"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:string"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.0,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:bowl"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:stick"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10.0,
+              "add": false
+            }
+          ],
+          "name": "minecraft:ink_sac"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:tripwire_hook"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:rotten_flesh"
+        },
+      ]
+    }
+  ]
+}
